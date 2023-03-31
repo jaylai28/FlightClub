@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block title %}Flight Club - Home{% endblock %} {%
+block content %}
+<div class="d-flex align-items-center justify-content-center h-100">
+  <div class="container text-center">
+    <h1 class="display-4">Welcome to Flight Club!</h1>
+    <p class="lead">
+      Join our exclusive Flight Club and get access to exclusive flight deals!
+    </p>
+    <hr class="my-4" />
+    <a
+      class="btn btn-primary btn-lg"
+      href="{{ url_for('register') }}"
+      role="button"
+      >Sign up now!</a
+    >
+  </div>
+</div>
+{% endblock %}

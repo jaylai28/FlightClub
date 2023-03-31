@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container mt-5">
+  <div class="card mx-auto" style="width: 25rem">
+    <div class="card-body text-center">
+      <h5 class="card-title mb-4">Thanks for Subscribing, {{ first_name }}!</h5>
+      <p class="card-text">
+        We'll be sending you exclusive flight deals to your email address: {{
+        email_address }}
+      </p>
+      <a href="/home" class="btn btn-primary mt-4">Back to Home</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
