@@ -3,7 +3,7 @@ from google.oauth2 import service_account
 import pandas as pd
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-SERVICE_ACCOUNT_FILE = '/Users/weijianlai/PycharmProjects/PythonProjects/FlightDealFinder/keys.json'
+SERVICE_ACCOUNT_FILE = 'keys.json'
 
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
