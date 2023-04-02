@@ -1,7 +1,8 @@
 # FlightClub
 
 This project is designed to help users find the best flight deals by subscribing to a daily email service. The email will contain the best deal available for a particular destination within the next six months.
-![Alt text](../../../Desktop/Screenshot%202023-04-02%20at%2020.38.10.png)
+![Screenshot 2023-04-02 at 20 38 10](https://user-images.githubusercontent.com/69461406/229348683-d3c0fdf7-7a91-4640-86c4-285889819515.png)
+
 
 The project has six main files: app.py, flight_data.py, flight_search.py, data_manager.py, main.py and notification_manager.py.
 App.py is responsible to run the Flask application
