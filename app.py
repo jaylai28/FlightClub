@@ -1,8 +1,5 @@
-from flask import Flask,render_template,request, url_for, jsonify
+from flask import Flask,render_template,request, url_for
 import sys
-import re
-from email_validator import validate_email, EmailNotValidError
-sys.path.insert(0, '/Users/weijianlai/PycharmProjects/PythonProjects/FlightDealFinder')
 from data_manager import DataManager
 
 FLIGHT_SPREADSHEET_ID = '1zWlTSc9HgmXtn96ZK4RsX_EhaVe7aMT3lQITvtj1XIk'

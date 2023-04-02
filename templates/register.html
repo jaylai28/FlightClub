@@ -1,8 +1,10 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} {% block title %} Flight Club - Join Now {% endblock
+%} {% block content %}
 <div class="container mt-5">
   <div class="card mx-auto" style="width: 30rem">
     <div class="card-body">
       <h5 class="card-title mb-4 text-center">Join Our Flight Club</h5>
+      
       <form method="post" action="{{ url_for('thanks') }}">
         <div class="form-group">
           <label for="first_name">First Name:</label>
@@ -16,7 +18,9 @@
           <label for="email">Email Address:</label>
           <input type="email" class="form-control" name="email" required />
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-group py-3">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
       </form>
     </div>
   </div>

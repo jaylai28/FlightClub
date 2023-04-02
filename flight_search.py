@@ -6,7 +6,7 @@ from flight_data import FlightData
 class FlightSearch:
     #This class is responsible for talking to the Flight Search API.
     def __init__(self):
-        self.api_key = 'T6z77lnFtgtuDg1QNHIUmLHKUj8bJngP'
+        self.api_key = 'APIKEY'
         self.search_endpoint = 'https://api.tequila.kiwi.com/v2/search'
         self.headers = {
          'apikey': self.api_key}
@@ -52,7 +52,5 @@ class FlightSearch:
         self.search_data["data"][0]["route"][1]["local_departure"].split('T')[0],
         self.search_data["data"][0]["deep_link"]
         )        
-
-        # print(f"{flight_data.destination_city}: ${flight_data.price}")
         return flight_data
         

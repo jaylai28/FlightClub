@@ -1,7 +1,7 @@
 import requests
 
 tequila_endpoint = 'https://api.tequila.kiwi.com/locations/query'
-api_key = 'T6z77lnFtgtuDg1QNHIUmLHKUj8bJngP'
+api_key = 'API_KEY'
 headers = {'Accept': 'application/json',
         'apikey': api_key
         }
